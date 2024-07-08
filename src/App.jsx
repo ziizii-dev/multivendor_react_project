@@ -1,18 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Router from './router/Router';
+import publicRoutes from './router/routes/publicRoutes';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-     <h1 className="text-3xl font-bold underline text-red-500">
-      Hello world!
-    </h1>
-    </>
-  )
+ const[allRoutes,setAllRoutes]=useState([...publicRoutes]);
+ console.log(allRoutes);
+ return <Router allRoutes={allRoutes}/>
 }
-
 export default App
