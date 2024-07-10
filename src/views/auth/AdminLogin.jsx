@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
-const Login = () => {
+const AdminLogin = () => {
   const [state, setState] = useState({ 
     email: "",
     password: ""
@@ -61,50 +61,12 @@ const submit = (e) => {
                   />
                 </div>
 
-                <div className="flex items-center w-full gap-3 mb-3">
-                  <input
-                    className="w-4 h-4 text-blue-600 overflow-hidden bg-gray-200 rounded border-gray-300 focus:ring-blue-500"
-                    type="checkbox"
-                    name="checkbox"
-                    id="checkbox"
-                  />
-                  <label htmlFor="checkbox">
-                    I agree to privacy policy & treams
-                  </label>
-                </div>
-
+               
                 <button className="bg-slate-800 w-full hover:shadow-blue-300/ hover:shadow-lg text-white rounded-md px-7 py-2 mb-3">
-                  Sign In
+                Login In
                 </button>
 
-                <div className="flex items-center mb-3 gap-3 justify-center">
-                  <p>
-                    Already Haven't an account ?
-                    <Link className="font-bold" to="/register">
-                      Sing Up
-                    </Link>
-                  </p>
-                </div>
-                <div className="w-full flex justify-center items-center mb-3">
-                  <div className="w-[45%] bg-slate-700 h-[1px]"></div>
-                  <div className="w-[10%] flex justify-center items-center">
-                    <span className="pb-1">Or</span>
-                  </div>
-                  <div className="w-[45%] bg-slate-700 h-[1px] "></div>
-                </div>
-                <div className="flex justify-center items-center gap-3">
-                  <div className="w-[135px] h-[35px] flex rounded-md bg-orange-700 shadow-lg hover:shadow-orange-700/50 justify-center cursor-pointer items-center overflow-hidden">
-                    <span>
-                      <FaGoogle />
-                    </span>
-                  </div>
-
-                  <div className="w-[135px] h-[35px] flex rounded-md bg-blue-700 shadow-lg hover:shadow-blue-700/50 justify-center cursor-pointer items-center overflow-hidden">
-                    <span>
-                      <FaFacebook />
-                    </span>
-                  </div>
-                </div>
+        
               </div>
             </form>
           </div>
@@ -114,4 +76,4 @@ const submit = (e) => {
   )
 }
 
-export default Login
+export default AdminLogin
