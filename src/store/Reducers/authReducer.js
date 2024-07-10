@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const authReducer = createSlice({
-    name :'authReducer',
+    name :'auth',
     initialState:{
         successMessage:'',
         errorMessage:'',
