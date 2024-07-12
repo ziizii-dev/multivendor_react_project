@@ -7,7 +7,7 @@ import { admin_login } from '../../store/Reducers/authReducer';
 
 const AdminLogin = () => {
   const dispatch = useDispatch();
-  const {loader} = useSelector(state=>state.auth)
+  // const {loader} = useSelector(state=>state.auth)
 
   const [state, setState] = useState({ 
     email: "",
