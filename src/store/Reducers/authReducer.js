@@ -16,21 +16,23 @@ export const admin_login = createAsyncThunk(
     }
 )   
 export const authReducer = createSlice({
-    name :'auth',
+    name: 'auth',
     initialState:{
-        successMessage:'',
-        errorMessage:'',
-        loader:false,
-        userInfo:''
+        successMessage :  '',
+        errorMessage : '',
+        loader: false,
+        userInfo: ''
     },
-    reducers:{
-
+    reducers: {
+       
     },
-    extraReducers:(builder)=> {
+    extraReducers: (builder) => {
         builder
-            .addCase(admin_login.pending,(state,{payload})=>{
-                state.loader = true;
+        .addCase(admin_login.pending, (state, { payload }) => {
+            state.loader = true;
             })
+           
     }
-})
-export default authReducer.reducer
+});
+
+export default authReducer.reducer;
