@@ -1,14 +1,16 @@
-import React, { useState } from 'react';
-import {Link} from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import {Link, useNavigate} from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { useDispatch, useSelector } from 'react-redux';
-import { admin_login } from '../../store/Reducers/authReducer';
+import { admin_login,messageClear  } from '../../store/Reducers/authReducer';
 import { PropagateLoader } from 'react-spinners';
+import toast from 'react-hot-toast';
 
 const AdminLogin = () => {
   const dispatch = useDispatch();
-  const {loader} = useSelector(state=>state.auth)
+  const navigate = useNavigate();
+  const {loader,errorMessage,successMessage} = useSelector(state=>state.auth)
 
   const [state, setState] = useState({ 
     email: "",
@@ -34,6 +36,18 @@ const overrideStyle = {
   justifyContent : 'center',
   alignItems : 'center'
 }
+useEffect(() => {
+  if (errorMessage) {
+     alert("Wrong Password")
+     toast.error(errorMessage);
+    dispatch(messageClear())
+  } if (successMessage) {
+    alert("Login Success")
+    toast.success(successMessage)
+    dispatch(messageClear())  
+    navigate('/')          
+}
+},[errorMessage,successMessage])
 
   return (
     <>
