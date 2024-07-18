@@ -8,6 +8,7 @@ import store from './store/index.js';
 // import store from './store';
 const App = lazy(() => import('./App'))
 ReactDOM.createRoot(document.getElementById('root')).render(
+  
   <BrowserRouter>
   <Provider store={store}>
   <Suspense>

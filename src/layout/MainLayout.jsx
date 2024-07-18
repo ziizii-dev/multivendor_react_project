@@ -7,7 +7,7 @@ import Sidebar from './Sidebar'
 const MainLayout = () => {
   return (
     <>
-     <div className='bg-[#cdcae9] w-full min-h-screen'>
+     <div className='bg-[#cdcae9]  w-full min-h-screen '>
     <Header/>
      <Sidebar/>
    

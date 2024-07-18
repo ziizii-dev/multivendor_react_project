@@ -11,7 +11,7 @@ function App() {
 useEffect(()=>{
     const routes = getRoutes()
     setAllRoutes([...allRoutes,routes])
-    console.log(routes);
+    console.log("all routes are", routes);
 },[])
  return <Router allRoutes={allRoutes}/>
 }
