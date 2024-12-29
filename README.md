@@ -8,5 +8,6 @@
 # https://tailwindcss.com/docs/guides/vite
 
 # udemy course
+# npm run dev
 
 </details>
