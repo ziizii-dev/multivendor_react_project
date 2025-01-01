@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { IoMdClose } from "react-icons/io";
 const ChatSeller = () => {
     const [show, setShow] = useState(false) 
+    
     return (
     <div className='px-2 lg:px-7 py-5'>
         <div className='w-full bg-[#6a5fdf] px-4 py-4 rounded-md h-[calc(100vh-140px)]'>
@@ -34,7 +35,7 @@ const ChatSeller = () => {
             </div> 
         </div> 
        </div>
-       
+
        <div className={`h-[60px] flex justify-start gap-2 items-center text-white px-2 py-2 rounded-sm cursor-pointer`}>
         <div className='relative'>
          <img className='w-[38px] h-[38px] border-white border-2 max-w-[38px] p-[2px] rounded-full' src="http://localhost:5173//images/category/3.jpeg" alt="" />
