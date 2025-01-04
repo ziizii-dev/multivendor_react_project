@@ -45,9 +45,7 @@ const ChatSeller = () => {
             </div> 
         </div> 
        </div>
-                    
-
-
+                
                     </div>
 
 
