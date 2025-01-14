@@ -81,7 +81,6 @@ const ChatSeller = () => {
                 <span><FaList/> </span>
             </div>
         </div>
-
         <div className='py-4'>
             <div className='bg-[#475569] h-[calc(100vh-290px)] rounded-md p-3 overflow-y-auto'>
             <div className='w-full flex justify-start items-center'>
