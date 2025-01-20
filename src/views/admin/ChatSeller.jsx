@@ -92,6 +92,7 @@ const ChatSeller = () => {
                         <span>How Are you ? </span>
                         </div> 
                     </div> 
+                    
                 </div>
                 <div className='w-full flex justify-end items-center'>
                     <div className='flex justify-start items-start gap-2 md:px-3 py-2 max-w-full lg:max-w-[85%]'>
