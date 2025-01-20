@@ -76,7 +76,6 @@ const ChatSeller = () => {
 
                 </div>
             }
-
             <div onClick={()=> setShow(!show)} className='w-[35px] flex md:hidden h-[35px] rounded-sm bg-blue-500 shadow-lg hover:shadow-blue-500/50 justify-center cursor-pointer items-center text-white'>
                 <span><FaList/> </span>
             </div>
@@ -92,7 +91,7 @@ const ChatSeller = () => {
                         <span>How Are you ? </span>
                         </div> 
                     </div> 
-                    
+
                 </div>
                 <div className='w-full flex justify-end items-center'>
                     <div className='flex justify-start items-start gap-2 md:px-3 py-2 max-w-full lg:max-w-[85%]'>
