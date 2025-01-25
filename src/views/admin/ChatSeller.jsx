@@ -75,7 +75,6 @@ const ChatSeller = () => {
         </div>
 
                 </div>
-                
             }
             <div onClick={()=> setShow(!show)} className='w-[35px] flex md:hidden h-[35px] rounded-sm bg-blue-500 shadow-lg hover:shadow-blue-500/50 justify-center cursor-pointer items-center text-white'>
                 <span><FaList/> </span>
