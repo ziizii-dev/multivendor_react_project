@@ -45,8 +45,9 @@ const ChatSeller = () => {
                     <h2 className="text-base font-semibold">World</h2>
                   </div>
                 </div>
+                
               </div>
-              
+
               <div
                 className={`h-[60px] flex justify-start gap-2 items-center text-white px-2 py-2 rounded-sm cursor-pointer`}
               >
