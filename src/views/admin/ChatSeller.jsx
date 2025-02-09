@@ -45,7 +45,7 @@ const ChatSeller = () => {
                     <h2 className="text-base font-semibold">World</h2>
                   </div>
                 </div>
-                
+
               </div>
 
               <div
@@ -123,6 +123,7 @@ const ChatSeller = () => {
             <button className='shadow-lg bg-[#06b6d4] hover:shadow-cyan-500/50 text-semibold w-[75px] h-[35px] rounded-md text-white flex justify-center items-center'>Send</button>
 
         </form>
+        
 
     </div>
 
