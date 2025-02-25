@@ -112,9 +112,10 @@ const ChatSeller = () => {
                         </div>
                         <div className='flex justify-center items-start flex-col w-full bg-blue-500 shadow-lg shadow-blue-500/50 text-white py-1 px-2 rounded-sm'>
                         <span>I Need some help </span>
-                        
+
                         </div> 
                     </div> 
+                    
                 </div>
 
             </div> 
