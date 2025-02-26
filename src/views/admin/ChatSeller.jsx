@@ -104,7 +104,7 @@ const ChatSeller = () => {
                             <img className='w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]' src="http://localhost:5173//images/category/2.jpeg" alt="" />
                         </div>
                     </div> 
-                    
+
                 </div>
                 <div className='w-full flex justify-start items-center'>
                     <div className='flex justify-start items-start gap-2 md:px-3 py-2 max-w-full lg:max-w-[85%]'>
@@ -115,7 +115,9 @@ const ChatSeller = () => {
                         <span>I Need some help </span>
 
                         </div> 
+                        
                     </div> 
+
 
                 </div>
 
