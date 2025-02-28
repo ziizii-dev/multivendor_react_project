@@ -105,7 +105,7 @@ const ChatSeller = () => {
                         </div>
                     </div> 
 
-                    
+
 
                 </div>
                 <div className='w-full flex justify-start items-center'>
@@ -117,6 +117,7 @@ const ChatSeller = () => {
                         <span>I Need some help </span>
 
                         </div> 
+                        
 
                     </div> 
 
