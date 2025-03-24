@@ -103,9 +103,7 @@ const ChatSeller = () => {
                         <div>
                             <img className='w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]' src="http://localhost:5173//images/category/2.jpeg" alt="" />
                         </div>
-                    </div> 
-
-
+                    </div>
 
                 </div>
                 <div className='w-full flex justify-start items-center'>
@@ -117,7 +115,7 @@ const ChatSeller = () => {
                         <span>I Need some help </span>
 
                         </div> 
-                        
+
 
                     </div> 
 
