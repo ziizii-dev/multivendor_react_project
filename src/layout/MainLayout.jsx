@@ -4,7 +4,6 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 
 
-
 const MainLayout = () => {
    const [showSidebar, setShowSidebar] = useState(false)
   return (
