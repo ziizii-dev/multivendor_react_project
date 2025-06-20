@@ -14,6 +14,7 @@ const MainLayout = () => {
       <div className='ml-0 lg:ml-[260px] pt-[95px] transition-all'>
         <Outlet/>
       </div>
+      
       </div>
     
       </>
