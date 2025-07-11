@@ -12,9 +12,11 @@ const PublicRoutes = [
     element: <Register />
   },
   {
+
     path: '/admin/login',
     element: <AdminLogin />
   }
+  
 ];
 
 export default PublicRoutes;
