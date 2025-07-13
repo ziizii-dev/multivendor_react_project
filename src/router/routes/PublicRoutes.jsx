@@ -7,6 +7,7 @@ const PublicRoutes = [
     path: '/login',
     element: <Login />
   },
+  
   {
     path: '/register',
     element: <Register />
@@ -16,7 +17,7 @@ const PublicRoutes = [
     path: '/admin/login',
     element: <AdminLogin />
   }
-  
+
 ];
 
 export default PublicRoutes;
