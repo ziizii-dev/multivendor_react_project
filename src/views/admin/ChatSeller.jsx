@@ -29,9 +29,6 @@ const ChatSeller = () => {
                     <h2 className="text-base font-semibold">Earth</h2>
                   </div>
                 </div>
-                
-
-
 
 
 
