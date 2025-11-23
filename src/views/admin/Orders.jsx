@@ -12,7 +12,7 @@ const Orders = () => {
       <div className="w-full p-4 bg-[#6a5fdf] rounded-md">
         <div className="flex justify-between items-center">
 
-          
+
           <select
 
             onChange={(e) => setParPage(parseInt(e.target.value))}
@@ -20,9 +20,6 @@ const Orders = () => {
           >
             <option value="5">5</option>
             <option value="10">10</option>
-
-
-
             <option value="20">20</option>
           </select>
           <input
