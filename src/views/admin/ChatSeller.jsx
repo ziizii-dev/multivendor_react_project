@@ -68,6 +68,8 @@ const ChatSeller = () => {
                   </div>
                 </div>
               </div>
+
+              
             </div>
           </div>
           <div className='w-full md:w-[calc(100%-200px)] md:pl-4'>
