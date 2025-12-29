@@ -30,6 +30,8 @@ const ChatSeller = () => {
                     <h2 className="text-base font-semibold">Earth</h2>
                   </div>
 
+                  
+
                 </div>
               </div>
               <div
@@ -69,7 +71,7 @@ const ChatSeller = () => {
                 </div>
               </div>
 
-              
+
             </div>
           </div>
           <div className='w-full md:w-[calc(100%-200px)] md:pl-4'>
