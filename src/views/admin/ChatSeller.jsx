@@ -23,6 +23,8 @@ const ChatSeller = () => {
                     alt=""
                   />
 
+
+
                   <div className="w-[10px] h-[10px] bg-green-500 rounded-full absolute right-0 bottom-0"></div>
                 </div>
                 <div className="flex justify-center items-start flex-col w-full">
@@ -30,7 +32,7 @@ const ChatSeller = () => {
                     <h2 className="text-base font-semibold">Earth</h2>
                   </div>
 
-                  
+
 
                 </div>
               </div>
