@@ -11,6 +11,7 @@ const Register = () => {
 
   const inputHandle = (e) => {
     setState({
+
       ...state,
       [e.target.name]: e.target.value,
     });
@@ -18,6 +19,7 @@ const Register = () => {
 
   const submit = (e) => {
     e.preventDefault();
+    
     console.log(state);
   };
 
